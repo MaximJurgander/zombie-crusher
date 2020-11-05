@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  color: red;
+  font-size: 3em;
+}
+
+canvas {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+}
